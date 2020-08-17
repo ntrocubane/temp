@@ -1,4 +1,4 @@
-<!ENTITY % data SYSTEM "http://localhost:1234/?incantation=aaa">
+<!ENTITY % data SYSTEM "http://localhost:1234">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY Contents '%start;%data;%end;'>">
