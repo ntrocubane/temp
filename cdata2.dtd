@@ -1,5 +1,4 @@
-<!ENTITY % file SYSTEM "http://localhost:500/">
+<!ENTITY % file SYSTEM "http://localhost:5000/">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY contents 
-'%start;%file;%end;'>">
+<!ENTITY % all "<!ENTITY contents '%start;%file;%end;'>">
