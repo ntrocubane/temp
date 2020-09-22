@@ -1,4 +1,4 @@
 <!ENTITY % file SYSTEM "http://localhost:5000/hidden-path.jsp">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY Contents '%start;%file;%end;'>">
+<!ENTITY % all "<!ENTITY Contents '%start;%file;%end;'>">>
